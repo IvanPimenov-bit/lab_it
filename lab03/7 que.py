@@ -1,0 +1,10 @@
+number=[1,4,5,6,73,23,7,8]
+print("кол-во:",len(number))
+print("сумма:",sum(number))
+print(":",min(number))
+print(":",max(number))
+print(":",sum(number)/len(number))
+sp1=sorted(number)
+print(sp1)
+number.sort
+print(number)

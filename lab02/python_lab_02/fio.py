@@ -1,0 +1,8 @@
+name=input("Как вас зовут?:")
+surname=input("Какая у вас фамилия?:")
+age=int(input("Сколько вам лет?:"))
+height=float(input("Какой у вас рост?:"))
+print(type(name))
+print(type(surname))
+print(type(age))
+print(type(height))
