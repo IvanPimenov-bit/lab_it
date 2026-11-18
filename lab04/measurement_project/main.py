@@ -9,7 +9,7 @@ Path("logs").mkdir(exist_ok=True)
 logging.basicConfig(
     filename=config["log_file"],
     level=logging.INFO,
-    format="%(asctime)s - %(levelname)s - %(message)s"
+    format="%(asctime)s - %(levelname)s - %(message)s", encoding="utf-8",
 )
 def main():
     logging.info("Программа запущена")
